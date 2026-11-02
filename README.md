@@ -16,7 +16,7 @@ The package gives you:
 ## Requirements
 
 - PHP 8.2+
-- Laravel 11 or 12
+- Laravel 12 or 13 (Laravel 13 needs PHP 8.3+)
 - A Wathq developer portal subscription that includes the commercial registration API
 
 ## Installation
@@ -207,7 +207,7 @@ composer test      # PHPUnit with Orchestra Testbench
 composer format    # Laravel Pint
 ```
 
-CI runs the suite on PHP 8.2, 8.3 and 8.4 against Laravel 11 and 12.
+CI runs the suite on PHP 8.2, 8.3 and 8.4 against Laravel 12, and on PHP 8.3 and 8.4 against Laravel 13.
 
 ## License
 
